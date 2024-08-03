@@ -33,3 +33,21 @@ The code of the comparison itself can be applied at will.
  Add a private binary search method to the implementation.
 Note that the contains method has already been implemented in the past.
 It should be reworked by performing the sorting (implemented in step 2) and calling the binary search method.
+
+RU text
+Основы алгоритмов, часть 3.
+В этом задании предстоит привести реализацию ArrayList'а к одной из стандартных библиотек Java.
+Основное задание
+⚠️ Для упрощения работу следует проводить с той реализацией, которая обрабатывает числа, а не строки.
+Шаг 1. Реализовать приватный метод grow, который будет отвечать за расширение массива-хранилища в 1,5 раза в ситуации, когда место закончилось.
+Шаг 2. Добавить проверку на заполненность в метод add и, если массив заполнен, расширить его.
+Шаг 3. Изменить реализацию сортировки на рекурсивную из последней шпаргалки.
+
+ENG text
+Fundamentals of algorithms, part 3.
+In this task, you will have to bring the ArrayList implementation to one of the standard Java libraries.
+The main task
+To simplify the work, it should be carried out with an implementation that processes numbers, not strings.
+Step 1. Implement the private grow method, which will be responsible for expanding the storage array 1.5 times in a situation when the space has run out.
+Step 2. Add a fill check to the add method and, if the array is full, expand it.
+Step 3. Change the implementation of sorting to recursive from the last cheat sheet.
